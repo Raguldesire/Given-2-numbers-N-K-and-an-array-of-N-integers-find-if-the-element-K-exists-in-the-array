@@ -1,0 +1,9 @@
+n,k=map(int,input().split())                      #getting multiple inputs
+l=list(map(int,(input().split())))                #getting inputs for n
+for j in l:                                       #am using for loop here
+  if j%k==0:                                      #checking the k value is exist or not
+    print("yes")
+    break
+else:
+    print("no")
+    
